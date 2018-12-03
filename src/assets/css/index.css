@@ -36,3 +36,51 @@ code {
   line-height: 20px;
   border:1px solid #555;
 }
+.menus-title{
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #000;
+  color:#fff;
+}
+.menus-content{
+  margin-top: 10px;
+  overflow: hidden;
+}
+.menus-content p{
+  margin: 0px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.menus-content ul,.menus-content li{
+  list-style: none;
+  display: block;
+}
+.menus-content li{
+  text-align: center;
+  float: left;
+  width: 33.3%;
+  box-sizing:border-box;
+  padding:5px;
+  border-radius: 3px;
+}
+.menus-content img{
+  height: 100px;
+  width: 100px;
+  border-radius: 2px;
+}
+.menus-content span{
+  display: block;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+}
+.menus-content span.price{
+  color:#f00;
+}
+.menus-content a{
+  text-decoration: none;
+  color: #555;
+}

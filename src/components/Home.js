@@ -20,6 +20,7 @@ class Home extends React.Component{
     render(){
         return(
             <div>
+                <h2>{this.state.msg}</h2>
                 <h2>{this.state.title}</h2>
                 <br />
                 <h2 className={this.state.color}>class的定义</h2>
