@@ -9,6 +9,7 @@
  * 2、在哪里使用直接引入  import fetchJsonp from 'fetch-jsonp'
  * 3、看官方文档    https://www.npmjs.com/package/fetch-jsonp
  * 也可用其他方法  或者自己封装请求方法
+ * 
  */
 import React, { Component } from 'react';
 import axios from 'axios';

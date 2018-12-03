@@ -6,7 +6,7 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
-            msg:'我是一个头部组件',
+            msg:'我是一个头部组件01',
             title:''
          };
     }
