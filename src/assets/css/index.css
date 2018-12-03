@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.news img{
+  height: 150px;
+  width: 150px;
+}
+.content-left{
+  width:48%;
+  float:left;
+}
+.content-right{
+  width:50%;
+  float: left;
+  border-right:1px solid #999999;
+}
+.todo-title{
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+.todo-title input{
+  width:300px;
+  line-height: 20px;
+  border:1px solid #555;
+}
